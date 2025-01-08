@@ -1,0 +1,38 @@
+
+body{
+    background-color:#F3F3F3;
+    margin: 0;
+}
+#top{
+    color: blue;
+    margin-left: 20px;
+    font-size: 30px;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container .ql-editor{
+    width: 90%;
+    min-height: 11in;
+    padding:30px;
+    margin: 1rem;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,5);
+    background-color: white;
+    @media (Width<=700px) {
+        width: 100%;
+        padding: 10px;
+        margin: 3px;
+        overflow: hidden;
+        
+    }
+}
+.container .ql-editor  img{
+    width: 100%;
+    max-height: 600px;
+    border-radius: 10px;
+
+}
+.container .ql-toolbar .ql-formats button{
+    width: 40px;
+    height: 30px;
+    margin-bottom: 10px;
+}
